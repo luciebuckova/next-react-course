@@ -28,9 +28,7 @@ export default function Home() {
   return (
     <div className="flex justify-center items-center min-h-screen text-center">
       <section>
-        <h1 className="pb-2 text-2xl font-semibold mb-10 border-b-4 border-teal-400">
-          All Quizzes
-        </h1>
+        <h1>All Quizzes</h1>
         <Suspense fallback={<p>Loading...</p>}>
           <Quizzes
             params={{

@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply pb-2 text-2xl font-semibold mb-4 border-b-4 border-teal-400;
+  }
+  h2 {
+    @apply text-lg font-medium mb-4;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
